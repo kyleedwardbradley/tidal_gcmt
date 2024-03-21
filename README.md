@@ -92,27 +92,37 @@ Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases 
 
 ### Centroid location
 
+
+
+Nodal plane 1
 |ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2316|6.14831|39.0506|21.1006|15.0253|
 
-Nodal plane 1
 ![Centroid, nodal plane 1](./images/19900104053225_centroid_np1.png)
 
 Nodal plane 2
-![Centroid, nodal plane 2](./images/19900104053225_centroid_np2.png)
-
-### Origin location
-
 |ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2847|13.0868|41.3438|25.3452|21.0673|
 
+![Centroid, nodal plane 2](./images/19900104053225_centroid_np2.png)
+
+### Origin location
+
 Nodal plane 1
+|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|:------|:------|:------|:------|:------|:------|
+8.9709|63.1915|7.59496|42.7863|22.7059|17.049 
 ![Origin, nodal plane 1](./images/19900104053225_origin_np1.png)
 
 Nodal plane 2
+|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|:------|:------|:------|:------|:------|:------|
+8.9709|63.2523|14.1787|43.4778|27.159|22.0227 
 ![Origin, nodal plane 2](./images/19900104053225_origin_np2.png)
+
+
 
 
 
