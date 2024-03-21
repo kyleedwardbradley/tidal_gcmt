@@ -41,38 +41,38 @@ File format: plain text, space-delimited columns
 |11|dip (NP2)|degrees|
 |12|rake (NP2)|degrees|
 |13|phase of ΔV (NP1)|degrees|
-|14|phase of Δt (NP1)|degrees|
-|15|phase of Δs (NP1)|degrees|
+|14|phase of Δτ (NP1)|degrees|
+|15|phase of Δσ (NP1)|degrees|
 |16|phase of ΔCFF0.1 (NP1)|degrees|
 |17|phase of ΔCFF0.4 (NP1)|degrees|
 |18|phase of ΔCFF0.7 (NP1)|degrees|
 |19|amplitude of ΔV (NP1)|MPa|
-|20|amplitude of Δt (NP1)|MPa|
-|21|amplitude of Δs (NP1)|MPa|
+|20|amplitude of Δτ (NP1)|MPa|
+|21|amplitude of Δσ (NP1)|MPa|
 |22|amplitude of ΔCFF0.1 (NP1)|MPa|
 |23|amplitude of ΔCFF0.4 (NP1)|MPa|
 |24|amplitude of ΔCFF0.7 (NP1)|MPa|
 |25|phase of ΔV (NP2)|MPa|
-|26|phase of Δt (NP2)|MPa|
-|27|phase of Δs (NP2)|MPa|
+|26|phase of Δτ (NP2)|MPa|
+|27|phase of Δσ (NP2)|MPa|
 |28|phase of ΔCFF0.1 (NP1)|degrees|
 |29|phase of ΔCFF0.4 (NP1)|degrees|
 |30|phase of ΔCFF0.7 (NP1)|degrees|
 |31|amplitude of ΔV (NP2)|MPa|
-|32|amplitude of Δt (NP2)|MPa|
-|33|amplitude of Δs (NP2)|MPa|
+|32|amplitude of Δτ (NP2)|MPa|
+|33|amplitude of Δσ (NP2)|MPa|
 |34|amplitude of ΔCFF0.1 (NP2)|MPa|
 |35|amplitude of ΔCFF0.4 (NP2)|MPa|
 |36|amplitude of ΔCFF0.7 (NP2)|MPa|
 |37|tau_p of ΔV (NP1)|Mpa|
-|38|tau_p of Δt (NP1)|Mpa|
-|39|tau_p of Δs (NP1)|Mpa|
+|38|tau_p of Δτ (NP1)|Mpa|
+|39|tau_p of Δσ (NP1)|Mpa|
 |40|tau_p of ΔCFF0.1 (NP1)|Mpa|
 |41|tau_p of ΔCFF0.4 (NP1)|Mpa|
 |42|tau_p of ΔCFF0.7 (NP1)|Mpa|
 |43|tau_p of ΔV (NP2)|Mpa|
-|44|tau_p of Δt (NP2)|Mpa|
-|45|tau_p of Δs (NP2)|Mpa|
+|44|tau_p of Δτ (NP2)|Mpa|
+|45|tau_p of Δσ (NP2)|Mpa|
 |46|tau_p of ΔCFF0.1 (NP2)|Mpa|
 |47|tau_p of ΔCFF0.4 (NP2)|Mpa|
 |48|tau_p of ΔCFF0.7 (NP2)|Mpa|
@@ -93,22 +93,22 @@ Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases 
 ### Centroid location
 
 Nodal plane 1
-|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|ΔV|Δτ|Δσ|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2316|6.14831|39.0506|21.1006|15.0253|
 
-|tau_p of ΔV|tau_p of Δt|tau_p of Δs|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043545|0.000893940000|0.004970470000|0.001308130000|0.002735110000|0.004209670000|
 
 ![Centroid, nodal plane 1](./images/19900104053225_centroid_np1.png)
 
 Nodal plane 2
-|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|ΔV|Δτ|Δσ|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2847|13.0868|41.3438|25.3452|21.0673|
 
-|tau_p of ΔV|tau_p of Δt|tau_p of Δs|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043545|0.000902514000|0.006148780000|0.001447940000|0.003240350000|0.005071890000|
 
@@ -117,22 +117,22 @@ Nodal plane 2
 ### Origin location
 
 Nodal plane 1
-|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|ΔV|Δτ|Δσ|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |8.9709|63.1915|7.59496|42.7863|22.7059|17.049|
 
-|tau_p of ΔV|tau_p of Δt|tau_p of Δs|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043375|0.000845099000|0.004880360000|0.001241880000|0.002637020000|0.004084010000|
 
 ![Origin, nodal plane 1](./images/19900104053225_origin_np1.png)
 
 Nodal plane 2
-|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|ΔV|Δτ|Δσ|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |8.9709|63.2523|14.1787|43.4778|27.159|22.0227|
 
-|tau_p of ΔV|tau_p of Δt|tau_p of Δs|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043375|0.000853226000|0.006012480000|0.001374300000|0.003120630000|0.004909370000|
 
