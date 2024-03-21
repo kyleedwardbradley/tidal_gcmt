@@ -90,21 +90,28 @@ Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all 
 
 Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases on the plots are those estimated from the code of Hirose et al. (2019). Our tidal phases are as follows:
 
+### Centroid location
+
 |ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2316|6.14831|39.0506|21.1006|15.0253|
-|7.72968|59.2847|13.0868|41.3438|25.3452|21.0673|
 
-Centroid location, nodal plane 1
+Nodal plane 1
 ![Centroid, nodal plane 1](./images/19900104053225_centroid_np1.png)
 
-Centroid location, nodal plane 2
+Nodal plane 2
 ![Centroid, nodal plane 2](./images/19900104053225_centroid_np2.png)
 
-Origin location, nodal plane 1
+### Origin location
+
+|ΔV|Δt|Δs|ΔCFF0.1|ΔCFF0.4|ΔCFF0.7|
+|:------|:------|:------|:------|:------|:------|
+|7.72968|59.2847|13.0868|41.3438|25.3452|21.0673|
+
+Nodal plane 1
 ![Origin, nodal plane 1](./images/19900104053225_origin_np1.png)
 
-Origin location, nodal plane 2
+Nodal plane 2
 ![Origin, nodal plane 2](./images/19900104053225_origin_np2.png)
 
 
