@@ -86,6 +86,14 @@ Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all 
 
 ![Example histogram](example_hist.png)
 
+## Example calculations
+
+![Centroid, nodal plane 1](./images/19900104053225_centroid_np1.png)
+![Centroid, nodal plane 2](./images/19900104053225_centroid_np2.png)
+![Origin, nodal plane 1](./images/19900104053225_origin_np1.png)
+![Origin, nodal plane 2](./images/19900104053225_origin_np2.png)
+
+
 
 
 
