@@ -88,7 +88,7 @@ Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all 
 
 ## Example calculation
 
-Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases on the plots are those estimated from the code of Hirose et al. (2019). Our tidal phases are as follows:
+Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases on the plots are those estimated from the code of Hirose et al. (2019). Our tidal phases are listed in each table.
 
 ### Centroid location
 
