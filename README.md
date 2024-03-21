@@ -88,9 +88,18 @@ Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all 
 
 ## Example calculations
 
+Earthquake at 1990-01-04T05:32:25
+
+Centroid location, nodal plane 1
 ![Centroid, nodal plane 1](./images/19900104053225_centroid_np1.png)
+
+Centroid location, nodal plane 2
 ![Centroid, nodal plane 2](./images/19900104053225_centroid_np2.png)
+
+Origin location, nodal plane 1
 ![Origin, nodal plane 1](./images/19900104053225_origin_np1.png)
+
+Origin location, nodal plane 2
 ![Origin, nodal plane 2](./images/19900104053225_origin_np2.png)
 
 
