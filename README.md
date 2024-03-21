@@ -81,8 +81,10 @@ File format: plain text, space-delimited columns
 
 Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all global earthquakes with magnitude 6.5 or larger, at origin locations:
 
-gawk < gcmt_origin_data.txt '($4>=6.5){print $14}' | gmt pshistogram -R-180/180/0/15 -JX5i -Z1 -T-180/180/30 -Bxa30+l"Phase of shear stress on NP1 (degrees)" -Byaf+l"Frequency (%)" -BWStr -Ctidal_phase.cpt -W0.1p,black > example_hist.ps
-gmt psconvert example_hist.ps -Tf -A+m0.5i
+    gawk < gcmt_origin_data.txt '($4>=6.5){print $14}' | gmt pshistogram -R-180/180/0/15 -JX5i -Z1 -T-180/180/30 -Bxa30+l"Phase of shear stress on NP1 (degrees)" -Byaf+l"Frequency (%)" -BWStr -Ctidal_phase.cpt -W0.1p,black > example_hist.ps
+    gmt psconvert example_hist.ps -Tf -A+m0.5i
+
+
 
 
 
