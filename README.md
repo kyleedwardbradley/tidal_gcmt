@@ -88,7 +88,7 @@ Using gawk and GMT, plot a histogram of the tidal phase of shear stress for all 
 
 ## Example calculation
 
-Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases on the plots are those estimated from the code of Hirose et al. (2019). Our tidal phases are listed in each table.
+Here are the results for an earthquake at 1990-01-04T05:32:25. The tidal phases on the plots are those estimated from the code of Hirose et al. (2019). Our tidal phases are listed in each table. Note that the Y axis is in units of 10kPa (for stresses) rather than the MPa units used in the data table.
 
 ### Centroid location
 
