@@ -21,7 +21,7 @@ Nodal plane 1 is defined as having lower dip than nodal plane 2.
 
 ## Tidal Stress and Phase Calculations
 
-Tidal stresses were calculating using TidalStrain.2 (https://www.mri-jma.go.jp/Dep/sei/fhirose/research/en.TidalStrain.html, accessed February 2024) for 24 hours preceding and following each earthquake. Two missing global mesh files were restored prior to calculation, and PREM parameters for deep earthquakes were added to the code. Tidal phase was estimated by quadratic interpolation of surrounding extrema. τp is calcluated following Cochran et al. (2004) as the average of tidal stress at the preceding and trailing maxima.
+Tidal stresses were calculating using TidalStrain.2 (https://www.mri-jma.go.jp/Dep/sei/fhirose/research/en.TidalStrain.html, accessed February 2024) for 24 hours preceding and following each earthquake. Two missing global mesh files were restored prior to calculation, and PREM parameters for deep earthquakes were added to the code. Tidal phase was estimated by quadratic interpolation of surrounding extrema. τp is calcluated following Cochran et al. (2004) as the average of tidal stress at the preceding and trailing maxima. The amplitude is the value at the precise time of the earthquake.
 
 
 File format: plain text, space-delimited columns
