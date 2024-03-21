@@ -21,7 +21,7 @@ Nodal plane 1 is defined as having lower dip than nodal plane 2.
 
 ## Tidal Stress and Phase Calculations
 
-Tidal stresses were calculating using TidalStrain.2 (https://www.mri-jma.go.jp/Dep/sei/fhirose/research/en.TidalStrain.html, accessed February 2024) for 24 hours preceding and following each earthquake. Two missing global mesh files were restored prior to calculation, and PREM parameters for deep earthquakes were added to the code. Tidal phase was estimated by quadratic interpolation of surrounding extrema. Tau_p is calcluated following Cochran et al. (2004) as the average of tidal stress at the preceding and trailing maxima.
+Tidal stresses were calculating using TidalStrain.2 (https://www.mri-jma.go.jp/Dep/sei/fhirose/research/en.TidalStrain.html, accessed February 2024) for 24 hours preceding and following each earthquake. Two missing global mesh files were restored prior to calculation, and PREM parameters for deep earthquakes were added to the code. Tidal phase was estimated by quadratic interpolation of surrounding extrema. τp is calcluated following Cochran et al. (2004) as the average of tidal stress at the preceding and trailing maxima.
 
 
 File format: plain text, space-delimited columns
@@ -64,18 +64,18 @@ File format: plain text, space-delimited columns
 |34|amplitude of ΔCFF0.1 (NP2)|MPa|
 |35|amplitude of ΔCFF0.4 (NP2)|MPa|
 |36|amplitude of ΔCFF0.7 (NP2)|MPa|
-|37|tau_p of ΔV (NP1)|Mpa|
-|38|tau_p of Δτ (NP1)|Mpa|
-|39|tau_p of Δσ (NP1)|Mpa|
-|40|tau_p of ΔCFF0.1 (NP1)|Mpa|
-|41|tau_p of ΔCFF0.4 (NP1)|Mpa|
-|42|tau_p of ΔCFF0.7 (NP1)|Mpa|
-|43|tau_p of ΔV (NP2)|Mpa|
-|44|tau_p of Δτ (NP2)|Mpa|
-|45|tau_p of Δσ (NP2)|Mpa|
-|46|tau_p of ΔCFF0.1 (NP2)|Mpa|
-|47|tau_p of ΔCFF0.4 (NP2)|Mpa|
-|48|tau_p of ΔCFF0.7 (NP2)|Mpa|
+|37|τp of ΔV (NP1)|Mpa|
+|38|τp of Δτ (NP1)|Mpa|
+|39|τp of Δσ (NP1)|Mpa|
+|40|τp of ΔCFF0.1 (NP1)|Mpa|
+|41|τp of ΔCFF0.4 (NP1)|Mpa|
+|42|τp of ΔCFF0.7 (NP1)|Mpa|
+|43|τp of ΔV (NP2)|Mpa|
+|44|τp of Δτ (NP2)|Mpa|
+|45|τp of Δσ (NP2)|Mpa|
+|46|τp of ΔCFF0.1 (NP2)|Mpa|
+|47|τp of ΔCFF0.4 (NP2)|Mpa|
+|48|τp of ΔCFF0.7 (NP2)|Mpa|
 
 ## Example
 
@@ -97,7 +97,7 @@ Nodal plane 1
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2316|6.14831|39.0506|21.1006|15.0253|
 
-|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|τp of ΔV|τp of Δτ|τp of Δσ|τp of ΔCFF0.1|τp of ΔCFF0.4|τp of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043545|0.000893940000|0.004970470000|0.001308130000|0.002735110000|0.004209670000|
 
@@ -108,7 +108,7 @@ Nodal plane 2
 |:------|:------|:------|:------|:------|:------|
 |7.72968|59.2847|13.0868|41.3438|25.3452|21.0673|
 
-|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|τp of ΔV|τp of Δτ|τp of Δσ|τp of ΔCFF0.1|τp of ΔCFF0.4|τp of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043545|0.000902514000|0.006148780000|0.001447940000|0.003240350000|0.005071890000|
 
@@ -121,7 +121,7 @@ Nodal plane 1
 |:------|:------|:------|:------|:------|:------|
 |8.9709|63.1915|7.59496|42.7863|22.7059|17.049|
 
-|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|τp of ΔV|τp of Δτ|τp of Δσ|τp of ΔCFF0.1|τp of ΔCFF0.4|τp of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043375|0.000845099000|0.004880360000|0.001241880000|0.002637020000|0.004084010000|
 
@@ -132,7 +132,7 @@ Nodal plane 2
 |:------|:------|:------|:------|:------|:------|
 |8.9709|63.2523|14.1787|43.4778|27.159|22.0227|
 
-|tau_p of ΔV|tau_p of Δτ|tau_p of Δσ|tau_p of ΔCFF0.1|tau_p of ΔCFF0.4|tau_p of ΔCFF0.7|
+|τp of ΔV|τp of Δτ|τp of Δσ|τp of ΔCFF0.1|τp of ΔCFF0.4|τp of ΔCFF0.7|
 |:------|:------|:------|:------|:------|:------|
 |0.000000043375|0.000853226000|0.006012480000|0.001374300000|0.003120630000|0.004909370000|
 
