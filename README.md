@@ -1,17 +1,17 @@
 # tidal_gcmt
-Tidal parameters for earthquakes in the Global Centroid Moment Tensor catalog
+Tidal parameters for earthquakes in the Global Centroid Moment Tensor catalog. These are the source data for replication and testing of various publications, as discussed at Earthquake Insights (March 2024).
 
-If you use these data, please cite the following data and code references:
+Any feedback about the data are highly welcome. Please feel free to use these data for any purpose. If you do so, please cite the following papers (references in bold are the most recent and should be cited with highest priority):
 
 Dziewonski, A. M., T.-A. Chou and J. H. Woodhouse, Determination of earthquake source parameters from waveform data for studies of global and regional seismicity, J. Geophys. Res., 86, 2825-2852, 1981. doi:10.1029/JB086iB04p02825
 
-Ekström, G., M. Nettles, and A. M. Dziewonski, The global CMT project 2004-2010: Centroid-moment tensors for 13,017 earthquakes, Phys. Earth Planet. Inter., 200-201, 1-9, 2012. doi:10.1016/j.pepi.2012.04.002
+**Ekström, G., M. Nettles, and A. M. Dziewonski, The global CMT project 2004-2010: Centroid-moment tensors for 13,017 earthquakes, Phys. Earth Planet. Inter., 200-201, 1-9, 2012. doi:10.1016/j.pepi.2012.04.002**
 
 Matsumoto, K., T. Sato, T. Takanezawa, and M. Ooe, 2001, GOTIC2: A program for computation of oceanic tidal loading effect, J. Geod. Soc. Japan, 47, 243-248.
 
 Saito, M., 1988, DISPER80: A subroutine package for the calculation of seismic normal-mode solutions, Seismol. Algorithms, pp. 293-319.
 
-Hirose, F., Maeda, K. and Kamigaichi, O., 2019. Tidal forcing of interplate earthquakes along the Tonga‐Kermadec Trench. Journal of Geophysical Research: Solid Earth, 124(10), pp.10498-10521.
+**Hirose, F., Maeda, K. and Kamigaichi, O., 2019. Tidal forcing of interplate earthquakes along the Tonga‐Kermadec Trench. Journal of Geophysical Research: Solid Earth, 124(10), pp.10498-10521.**
 
 ## GCMT Data
 
